@@ -35,7 +35,7 @@ client.once('ready', async () => {
 client.on('messageCreate', async msg => {
     const now = new Date();
     const time = now.toTimeString();
-    if (msg.content === `<@${config.cid}>` || msg.author.id === config.oid) msg.reply(`${time}, 功能正常`);
+    if (msg.content === `<@${config.cid}>` && msg.author.id === config.oid) msg.reply(`${time}, 功能正常`);
 });
 
 
