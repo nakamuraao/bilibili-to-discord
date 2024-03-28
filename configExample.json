@@ -1,0 +1,8 @@
+{
+    "token": "BOT_TOKEN_HERE",
+    "cid": "BOT_ID",
+    "oid": "OWNER_ID",
+    "notif_role": "ROLE_ID",
+    "notification_channel": "CHANNEL_ID",
+    "bilibili_id": "BILIBILI_UID_OF_THE_CHANNEL"
+}
